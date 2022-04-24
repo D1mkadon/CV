@@ -1,0 +1,339 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: white;
+  font-size: 20px;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Container1 {
+  margin: 25px 0px 0px 0px;
+  width: 30%;
+  height: 1150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Container1 .bold {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.Container1 .wbd {
+  font-variant: small-caps;
+}
+.Container1 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.Container1 h2 {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  padding: 0px 3px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+.Container1 p {
+  text-transform: uppercase;
+}
+.Container1 h3 {
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.Container1 .info {
+  background-color: #bed8ec;
+  height: 100%;
+}
+.Container1 .info {
+  padding: 10px 40px;
+  margin: auto;
+}
+.Container1 .contact p {
+  padding-left: 15px;
+  text-transform: none;
+}
+.Container1 .contact img {
+  height: 25px;
+  margin: 0px 0px 0px 0px;
+  width: 20px;
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+.Container1 .contact img:nth-child(2) {
+  top: 30px;
+}
+.Container1 .contact img:nth-child(6) {
+  width: 25px;
+  height: 20px;
+}
+.Container1 .contact img:nth-child(8) {
+  width: 25px;
+}
+.Container1 .contact {
+  position: relative;
+  bottom: 30px;
+}
+.Container1 .contact div,
+.Container1 .follow_me div,
+.Container1 .language div:first-child,
+.Container1 .hobbies div {
+  height: 40px;
+  background-color: #424243;
+  color: white;
+}
+.Container1 .contact div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 0px;
+}
+.Container1 .follow_me div,
+.Container1 .language div,
+.Container1 .hobbies div {
+  display: flex;
+  align-items: center;
+}
+.Container1 .follow_me div {
+  position: relative;
+  top: 15px;
+}
+.Container1 .follow_me img {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 20px;
+  right: 25px;
+}
+.Container1 .follow_me p {
+  text-transform: lowercase;
+  padding-left: 15px;
+}
+.Container1 .follow_me p:last-child {
+  padding-bottom: 30px;
+}
+.Container1 .language div:first-child {
+  position: relative;
+  bottom: 15px;
+}
+.Container1 .language p {
+  padding: 5px 0px;
+  text-transform: uppercase;
+}
+.Container1 .language_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.Container1 .language_flex div {
+  padding: 0px 15px 0px 0px;
+}
+.Container1 .language div > img {
+  margin: 0px 5px;
+  width: 15px;
+  height: 15px;
+}
+.Container1 .hobbies_p {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Container1 .hobbies p {
+  text-align: center;
+  text-transform: none;
+  background-color: #bed8ec;
+  color: #424243;
+  width: 50%;
+}
+
+.Container2 {
+  margin: 20px 0px 0px 0px;
+  font-size: 20px;
+  width: 60%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.Container2 h2 {
+  width: 100%;
+}
+.Container2 .tittle_::before {
+  content: "";
+  display: block;
+  background-image: url("/icons/про меня@288x.png") 0 0/30px 30px no-repeat;
+}
+.Container2 .tittle_:after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  width: calc( 100% - 35px);
+  height: 2px;
+  background-color: #343334;
+}
+.Container2 .tittle_ {
+  margin: 0px 0px 0px 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.Container2 .about_me h2 {
+  padding: 15px 0px 0px 0px;
+}
+.Container2 .about_me p {
+  color: #777778;
+  padding: 15px 0px;
+}
+.Container2 .tittle_flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
+.Container2 .tittle_flex h2, .Container2 .tittle_flex h3 {
+  width: 50%;
+}
+.Container2 .tittle_flex h3 {
+  text-align: end;
+}
+.Container2 .tittle_flex p {
+  padding: 10px 0px;
+  color: #777778;
+}
+.Container2 .textstyle {
+  color: #777778;
+}
+.Container2 .boldstyle {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #424243;
+}
+.Container2 .datumnstyle {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #424243;
+}
+.Container2 .skills {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.Container2 .skills_right,
+.Container2 .skills_left {
+  width: 50%;
+}
+.Container2 .skills_left div,
+.Container2 .skills_right div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.Container2 .skills_left div > div,
+.Container2 .skills_right div > div {
+  align-items: center;
+}
+.Container2 .skills_left div > div {
+  padding-right: 30%;
+}
+.Container2 .skills_left div > div > img,
+.Container2 .skills_right div > div > img {
+  margin: 0px 5px;
+  width: 15px;
+  height: 15px;
+}
+.Container2 .skills_right div > p {
+  padding-left: 40%;
+  text-align: right;
+}
+.Container2 .skills_p {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.Container2 .tittle_img {
+  display: flex;
+}
+.Container2 .tittle_img img {
+  width: 50px;
+  height: 50px;
+}

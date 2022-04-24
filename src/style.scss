@@ -1,0 +1,302 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body{ 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: white;
+    font-size: 20px;
+}
+.Container {
+    display: flex;
+    justify-content: space-around;
+}
+.Container1{ 
+    margin: 25px 0px 0px 0px;
+    width: 30%;
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bold{ 
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    .wbd{
+        font-variant: small-caps;
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    h2{
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        font-style: normal;
+        padding: 0px 3px;
+        margin: 10px 0px;
+        text-transform: uppercase;
+    }
+    p {text-transform: uppercase;
+        // font-weight: bold;
+    }
+    h3{
+        margin: 0px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .info{
+        background-color: #bed8ec;
+        height: 100%;
+    }
+    .info {
+        padding: 10px 40px;
+        margin: auto;
+
+
+    }
+ 
+    .contact p{
+        padding-left: 15px;
+        text-transform:none;
+    }
+    .contact img{ 
+        height: 25px;
+        margin: 0px 0px 0px 0px;
+        width: 20px;
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
+    .contact img:nth-child(2){ 
+        top: 30px;
+    }
+    .contact img:nth-child(6) {
+        width: 25px;
+        height: 20px;
+    }
+    .contact img:nth-child(8){
+        width: 25px;
+    }
+    .contact{
+        position: relative;
+        bottom: 30px;
+    }
+    .contact div,
+    .follow_me div,
+    .language div:first-child,
+    .hobbies div
+    {
+        height: 40px;
+        background-color: #424243;
+        color: white;
+    }
+    .contact div {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 0px;
+    }
+    
+    .follow_me div,
+    .language div,
+    .hobbies div{
+        display: flex;
+        align-items: center;
+    }
+    .follow_me div{ 
+        position: relative;
+        top: 15px;
+    }
+    
+
+    .follow_me img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 20px;
+        right: 25px;
+    }
+    .follow_me p{
+        text-transform: lowercase;
+        padding-left: 15px;
+    }
+    .follow_me p:last-child {
+        padding-bottom: 30px;
+    }
+    .language div:first-child {
+        position: relative;
+        bottom: 15px;
+    }
+    .language p {
+        padding: 5px 0px;
+        text-transform: uppercase;
+    }
+    .language_flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .language_flex div {
+        padding: 0px 15px 0px 0px;
+    }
+    .language div > img {
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .hobbies_p{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .hobbies p{
+        text-align: center;
+        text-transform: none;
+        background-color: #bed8ec;
+        color: #424243;
+        width: 50%;
+       
+    }
+
+}
+
+.Container2{
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    h2 {
+        width: 100%;
+    }
+    .tittle_::before {
+        content: "";
+        display: block;
+        background-image: url("/icons/про меня@288x.png") 0 0/30px 30px no-repeat;
+    }
+    .tittle_:after{
+        content: "";
+        display: block;
+        margin-top: 5px;
+        width: calc( 100% - 35px);
+        height: 2px;
+        background-color: #343334;
+    }
+    .tittle_{
+        margin: 0px 0px 0px 35px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .about_me h2{ 
+        padding: 15px 0px 0px 0px;
+    }
+    .about_me p{
+        color: #777778
+        ;
+        padding: 15px 0px;
+
+    }
+    .tittle_flex{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+    }
+    .tittle_flex h2, .tittle_flex h3{ 
+        width: 50%;
+    }
+    .tittle_flex h3{
+        text-align: end;
+    }
+    .tittle_flex p {
+        padding: 10px 0px;
+        color:#777778;
+    }
+    .textstyle{
+        color:#777778;
+    }
+    .boldstyle{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #424243;
+    }
+    .datumnstyle{ 
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #424243;
+    }
+    .skills {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .skills_right,
+    .skills_left {
+        width: 50%;
+       
+    }
+    // .skills_right {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: flex-end;
+    // }
+    .skills_left div,
+    .skills_right div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        
+    }
+    .skills_left div > div,
+    .skills_right div > div {
+        
+        // padding-right: 40%;
+        align-items: center;
+    }
+    .skills_left div > div{ 
+        padding-right: 30%;
+    }
+    .skills_left div > div > img,
+    .skills_right div > div > img {
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .skills_right div > p {
+        
+        padding-left: 40%;
+        text-align: right;
+    }
+    .skills_p {
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .tittle_img {
+        display: flex;
+    }
+    .tittle_img img {
+       
+        width: 50px;
+        height: 50px;
+    }
+}
