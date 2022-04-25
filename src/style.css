@@ -150,9 +150,11 @@ body {
 .Container1 .contact img:nth-child(6) {
   width: 25px;
   height: 20px;
+  right: 25px;
 }
 .Container1 .contact img:nth-child(8) {
   width: 25px;
+  right: 25px;
 }
 .Container1 .contact {
   position: relative;
